@@ -1,10 +1,6 @@
 import cv2 as cv
 import argparse as argp
 
-#Import pretrained model
-faceCascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
-
-
 
 def detectFaces(picture):
     #Import pretrained model
